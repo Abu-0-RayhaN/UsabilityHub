@@ -53,13 +53,13 @@ a {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1200px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
 }
 
 .parimary-button {
-    background-color: #4DADF7;
+    background-color: #1d8fe6;
     border-radius: 6px;
     font-size: 700;
     color: white !important;
@@ -112,6 +112,7 @@ ul {
 
 .nav-links ul {
     justify-content: end;
+
 }
 
 .nav-links ul li {
@@ -125,4 +126,41 @@ ul {
 
 .hover-links:hover {
     color: var(--accent-color);
+}
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header {
+    justify-content: center;
+    gap: 50px;
+    margin-inline: 60px;
+}
+
+.header-right img {
+    width: 600px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+
+.header-left h1 {
+    margin-top: 20px;
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.header-right img {
+    width: 600px;
+}
+
+.tryItFree {
+    padding-inline: 80px;
+}
+
+.credit {
+    font-size: 13px;
+    padding-left: 55px;
 }
