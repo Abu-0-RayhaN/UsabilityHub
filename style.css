@@ -164,3 +164,26 @@ header {
     font-size: 13px;
     padding-left: 55px;
 }
+
+/* companies section  */
+.companies-section {
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.company-content {
+    font-size: 15px;
+}
+
+.brands {
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.brands img {
+    width: auto;
+    height: auto;
+    max-width: 110px;
+    max-height: 76px;
+}
