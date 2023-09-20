@@ -187,3 +187,12 @@ header {
     max-width: 110px;
     max-height: 76px;
 }
+
+/* feature section  */
+.feature-section {
+    padding-top: 40px;
+}
+
+.feature-header {
+    text-align: center;
+}
