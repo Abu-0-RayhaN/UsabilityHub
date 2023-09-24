@@ -316,3 +316,13 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 35.jpeg');
     background-size: cover;
 }
+
+/* cta section  */
+.cta-img img {
+    width: 100%;
+}
+
+.cta-section {
+    background-color: #183B54;
+    margin-top: 20px;
+}
