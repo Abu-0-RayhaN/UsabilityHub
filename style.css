@@ -435,3 +435,28 @@ header {
 .footer-box ul li {
     margin-bottom: 10px;
 }
+
+/* subfooter sectioin  */
+
+.subfooter {
+    background-color: #B9CDE4;
+    height: 64px;
+    align-items: center;
+}
+
+.subfoot {
+    color: var(--secondary-text-color);
+    justify-content: space-evenly;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.contents a {
+    color: var(--primary-text-color);
+    margin-right: 15px;
+    text-align: center;
+}
+
+.socials i {
+    margin-right: 20px;
+}
