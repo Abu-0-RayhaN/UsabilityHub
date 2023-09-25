@@ -388,3 +388,50 @@ header {
     font-family: sans-serif;
     font-size: 40px;
 }
+
+
+/* footer section  */
+.footer {
+    background-color: #EBF2FA;
+    height: 474px;
+    font-size: 14px;
+    text-align: start;
+
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-logo {
+    margin-top: -160px;
+}
+
+.list3 {
+    margin-top: 30px;
+}
+
+.footer-box ul li a {
+    color: #577592;
+}
+
+.footer-box ul li a:hover {
+    color: #2294ed;
+}
+
+.footer-box ul li p {
+    color: var(--primary-text-color);
+    font-weight: bolder;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
