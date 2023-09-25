@@ -325,4 +325,47 @@ header {
 .cta-section {
     background-color: #183B54;
     margin-top: 20px;
+    color: white;
+}
+
+.cta-content {
+    width: 65%;
+    margin: 55px 0px;
+}
+
+.cta-content-text p {
+    color: #B9CDE4;
+}
+
+.calculator {
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: #2989d3;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px 0px;
+    margin-top: 40px;
+    margin-right: 4px;
+}
+
+.calculator a {
+    color: white;
+}
+
+.learn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6aa0df;
+}
+
+.learn a {
+    color: #B9CDE4;
+}
+
+.learn a:hover {
+    color: #1d69a3;
+}
+
+.cta-content-menu {
+    color: #0061AD;
 }
