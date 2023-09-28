@@ -57,8 +57,19 @@
         flex-direction: column;
     }
 
+    .footer-box {
+        flex-direction: column;
+        text-align: center;
+        padding-top: -50px;
+    }
 
+    .list3 {
+        margin-top: -30px;
+    }
 
+    .footer-logo {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width:676px) {
