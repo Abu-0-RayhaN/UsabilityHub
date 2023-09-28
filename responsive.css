@@ -1,0 +1,48 @@
+/* media query */
+@media screen and (max-width:992px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .example-card {
+        width: 48%;
+    }
+
+    .example-area {
+        gap: 20px;
+    }
+
+    .learn {
+        margin-top: 5px;
+    }
+
+    /* .feature-card {
+        max-width: 48%;
+    } */
+}
+
+@media screen and (max-width:885px) {
+
+
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .credit {
+        margin-left: -30px;
+    }
+
+    .feature-card {
+        max-width: 48%;
+    }
+}
