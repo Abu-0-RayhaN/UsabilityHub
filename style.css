@@ -56,6 +56,7 @@ a {
     max-width: 1200px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .parimary-button {
@@ -132,6 +133,10 @@ ul {
     color: var(--accent-color);
 }
 
+.nav-toggle {
+    display: none;
+}
+
 header {
     padding: 50px var(--padding-inline-section) 0;
 }
@@ -142,9 +147,6 @@ header {
     margin-inline: 60px;
 }
 
-.header-right img {
-    width: 600px;
-}
 
 .header-left {
     max-width: 40vw;
@@ -157,7 +159,7 @@ header {
 }
 
 .header-right img {
-    width: 600px;
+    width: 100%;
 }
 
 .tryItFree {
@@ -181,8 +183,9 @@ header {
 }
 
 .brands {
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .brands img {
@@ -235,7 +238,7 @@ header {
 .feature-area {
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -295,6 +298,7 @@ header {
 
 .example-area {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .example-card:hover {
