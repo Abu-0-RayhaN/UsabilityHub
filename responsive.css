@@ -45,4 +45,29 @@
     .feature-card {
         max-width: 48%;
     }
+
+    .cta {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media screen and (max-width:676px) {
+    .contents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subfoot {
+        flex-direction: column;
+    }
 }

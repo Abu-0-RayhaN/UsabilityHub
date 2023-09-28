@@ -258,6 +258,10 @@ header {
     gap: 30px;
 }
 
+.row-reversing {
+    flex-direction: row-reverse;
+}
+
 .feature-img img {
     width: 100%;
 }
@@ -397,7 +401,7 @@ header {
 /* footer section  */
 .footer {
     background-color: #EBF2FA;
-    height: 474px;
+    /* height: 474px; */
     font-size: 14px;
     text-align: start;
 
@@ -444,7 +448,6 @@ header {
 
 .subfooter {
     background-color: #B9CDE4;
-    height: 64px;
     align-items: center;
 }
 
