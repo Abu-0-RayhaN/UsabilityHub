@@ -109,6 +109,7 @@ ul {
 .main-nav {
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 
 .nav-links {

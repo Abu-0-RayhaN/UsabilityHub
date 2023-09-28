@@ -5,9 +5,31 @@
         margin-right: 20px;
     }
 
-    .nav-links {
-        display: none;
+    .nav-links ul {
+        flex-direction: column;
     }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-links ul li {
+        padding: 5px;
+    }
+
+    .nav-links.active {
+        left: 0%;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
 
     .example-card {
         width: 48%;
@@ -76,9 +98,17 @@
     .contents {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .subfoot {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .example-card {
+        width: 98%;
+        height: 300px;
+        margin: auto;
     }
 }
